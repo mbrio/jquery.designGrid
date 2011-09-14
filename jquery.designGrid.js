@@ -3,7 +3,7 @@
 		var settings = {
 			gridWidth: 50,
 			gutterWidth: 10,
-			outerPadding: 10,
+			offset: 10,
 			gridCount: 10,
 			gridColor: '#000',
 			dataKey: 'designGrid.gridVisible',
@@ -19,7 +19,7 @@
 					if (e.altKey && e.ctrlKey && e.keyCode == settings.keyCode) {
 						if (!dgs.data(settings.dataKey)) {
 							var b = $(document.body);
-							var left = dgs.offset().left + settings.outerPadding;
+							var left = dgs.offset().left + settings.offset;
 							var width = dgs.innerWidth();
 							var height = $(document).height();
 							var colWidth = settings.gridWidth + settings.gutterWidth;

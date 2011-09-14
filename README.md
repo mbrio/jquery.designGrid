@@ -20,7 +20,7 @@ Parameters
 * `@params` = The design grid parameters
 	* `gridWidth` = The width of a single grid column without the gutter, the default is 50
 	* `gutterWidth` = The width of the gutter between each grid column, the default is 10
-	* `outerPadding` = The padding on the outside of the content area, the default is 10
+	* `offset` = The padding on the outside of the content area, the default is 10
 	* `gridCount` = The number of grid columns to display, the default is 10
 	* `gridColor` = The color of the grid lines, the default is #000
 	* `dataKey` = The key to use when storing information on the data-* attribute, the default is 'designGrid.gridVisible'
@@ -32,6 +32,6 @@ Example
 	$(".main-container").designGrid({
 		gridWidth: 40,
 		gutterWidth: 20,
-		outerPadding: 20,
+		offset: 20,
 		gridCount: 16
 	});
