@@ -9,6 +9,8 @@ Introduction
 ------------
 jquery.designGrid is a library that displays a grid over a web page.
 
+With the default `keyCode` configuration, once the designGrid method has been called, you can hide and show the grid by holding down CTRL + ALT + G
+
 Usage
 -----
 	jQuery.fn.designGrid(params)
@@ -23,7 +25,7 @@ Parameters
 	* `gridColor` = The color of the grid lines, the default is #000
 	* `dataKey` = The key to use when storing information on the data-* attribute, the default is 'designGrid.gridVisible'
 	* `gridClass` = The class to use on the grid divs, the default is 'design-grid-displayed-line'
-	* `keyCode` = The key to press in order to display the grid, this number must be a value that is passed by the `keypress` event, along with this key you will also have to hold down ctrl+alt, the default is 71 or 'g'
+	* `keyCode` = The key to press in order to display the grid, this number must be a value that is passed by the `keypress` event, along with this key you will also have to hold down CTRL + ALT, the default is 71 or 'g'
 	
 Example
 -------
