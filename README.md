@@ -11,6 +11,8 @@ jquery.designGrid is a library that displays a grid over a web page.
 
 With the default `keyCode` configuration, once the designGrid method has been called, you can hide and show the grid by holding down CTRL + ALT + G
 
+I have a small [Gist](http://gist.github.com/1217627) up as an example.
+
 Usage
 -----
 	jQuery.fn.designGrid(params)
